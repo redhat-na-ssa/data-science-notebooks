@@ -28,6 +28,5 @@ be configured the same as above.
 [01-py-slicer](01-py-slicer.ipynb)
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/redhat-naps-da/data-science-notebooks/main?filepath=scipy%2F01-py-slicer.ipynb)
-
 [![Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/bkoz/5488dd5ec6853dd78accafbaeaf417f3/slider.ipynb)
 
