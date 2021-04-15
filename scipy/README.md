@@ -1,6 +1,6 @@
 # SciPy Examples
 
-## Requirments
+## Requirements
 
 A Python 3.6 environment
 
@@ -11,7 +11,7 @@ $ pip install pip --upgrade
 $ pip install -r requirements.txt
 ```
 
-### Running the notebook server.
+### Configuring and running the Jupyter notebook server.
 
 ```
 $ jupyter nbextension enable --py widgetsnbextension
