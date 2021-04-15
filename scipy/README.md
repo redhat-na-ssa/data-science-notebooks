@@ -21,3 +21,9 @@ $ jupyter lab --ip=0.0.0.0
 If running on OpenShift, the Jupyter notebook image needs to
 be configured the same as above.
 
+### Examples
+
+#### py-slicer
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/https://github.com/redhat-naps-da/data-science-notebooks/scipy.git/main/?urlpath=lab)
+
