@@ -2,7 +2,7 @@
 
 ## Requirements
 
-A Python 3.6 environment
+### A local Python 3.6 environment
 
 ```
 $ python3 -m venv scipy-demos
@@ -11,19 +11,21 @@ $ pip install pip --upgrade
 $ pip install -r requirements.txt
 ```
 
-### Configuring and running the Jupyter notebook server.
+#### Configuring and running the Jupyter notebook server.
 
 ```
 $ jupyter nbextension enable --py widgetsnbextension
 $ jupyter lab --ip=0.0.0.0
 ```
 
+### OpenShift
+
 If running on OpenShift, the Jupyter notebook image needs to
 be configured the same as above.
 
-### Examples
+### Run examples on Binder or Google Collab
 
-#### [py-slicer](01-py-slicer.ipynb)
+[01-py-slicer](01-py-slicer.ipynb)
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/redhat-naps-da/data-science-notebooks/main?filepath=scipy%2F01-py-slicer.ipynb)
 
