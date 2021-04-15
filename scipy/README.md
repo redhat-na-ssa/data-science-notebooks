@@ -28,6 +28,6 @@ $ jupyter lab --ip=0.0.0.0
 ### 3) On an OpenShift cluster
 
 If running on OpenShift, the Jupyter notebook image needs to
-be configured the same as above.
+be configured the same as above. Once logged into Jupyter, upload the [01-py-slicer notebook file](01-py-slicer.ipynb).
 
 
