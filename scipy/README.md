@@ -27,4 +27,4 @@ be configured the same as above.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/redhat-naps-da/data-science-notebooks/tree/main/scipy.git/main?urlpath=lab)
 
-
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/redhat-naps-da/data-science-notebooks/tree/main/scipy/HEAD)
