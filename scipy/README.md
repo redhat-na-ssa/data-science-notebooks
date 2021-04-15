@@ -1,6 +1,6 @@
 # SciPy Examples
 
-## Requirements
+## How to deploy
 
 ### A local Python 3.6 environment
 
@@ -18,12 +18,12 @@ $ jupyter nbextension enable --py widgetsnbextension
 $ jupyter lab --ip=0.0.0.0
 ```
 
-### OpenShift
+### On an OpenShift cluster
 
 If running on OpenShift, the Jupyter notebook image needs to
 be configured the same as above.
 
-### Run examples on Binder or Google Collab
+### Run on Binder or Google Collab
 
 [01-py-slicer](01-py-slicer.ipynb)
 
