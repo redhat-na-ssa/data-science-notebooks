@@ -9,7 +9,7 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/redhat-naps-da/data-science-notebooks/main?filepath=scipy%2F01-py-slicer.ipynb)
 [![Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/bkoz/6c70b79a6c5bce2044379a682d8e32b6/slider.ipynb)
 
-### 2) A local Python 3.6 environment
+### 2) A local Python 3.8 environment
 
 ```
 $ python3 -m venv scipy-demos
