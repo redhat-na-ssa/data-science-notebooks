@@ -7,10 +7,10 @@ persistent volume may need to be increased above 2GB. I'm still testing this. Th
 
 - Run Jupyter hub with a GPU.
 - Choose the largest cpu/memory combo available based on the worker nodes.
-- Storage for Jupyter hub defaults to 2Gi which may not suffice for many demos. There are 2 ways to change this.
-     - Change the config map
-       - Scale down the `jupyterhub` deployment config. 
+- Storage for Jupyter hub defaults to 2Gi which may not suffice for many demos. There may be 2 ways to change this.
+     - Change the config map and delete the old pvc.
+       - Scale down the `jupyterhub` deployment config to 0 replicas. 
        - Edit the `jupyterhub-cfg` config map and increase the pvc size. 
-       - Delete the `jupyterhub-nb-kube-3aadmin` pvc.
+       - Delete the `jupyterhub-nb-user-pvc` pvc.
        - Scale up `jupyterhub` deployment config. It should create a new pvc. 
     - Set the `SINGLEUSER_PVC_SIZE` environment variable when launching jupyter hub (not tested)
