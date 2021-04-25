@@ -10,6 +10,8 @@
 
 [Jason Dudash's Tensorflow demos](https://github.com/dudash/jupyter-gpu-examples)
 
+Demos in this repo.
+
 `01-cifar-10.ipynb` - Transfer learning ResNet architecture using the cifar10 data set. This notebook requires a GPU or it will take forever to run. When running on Open Data Hub the Jupyter notebook persistent volume may need to be increased above 2GB. The notebook should take about 9 minutes to run on an nvidia T4 GPU. 
 
 #### OpenDataHub configuration
