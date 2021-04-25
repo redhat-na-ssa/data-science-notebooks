@@ -12,5 +12,5 @@ persistent volume may need to be increased above 2GB. I'm still testing this. Th
        - Scale down the `jupyterhub` deployment config. 
        - Edit the `jupyterhub-cfg` config map and increase the pvc size. 
        - Delete the `jupyterhub-nb-kube-3aadmin` pvc.
-       - Rollout the latest `jupyterhub-nb-kube-3aadmin` deployment config. It should create a new pvc. 
+       - Scale up `jupyterhub` deployment config. It should create a new pvc. 
     - Set the `SINGLEUSER_PVC_SIZE` environment variable when launching jupyter hub (not tested)
