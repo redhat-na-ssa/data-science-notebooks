@@ -1,8 +1,16 @@
 # SciPy Examples
 
-## Different ways to deploy
+## How to 
 
-### 1) Run on Binder or Google Collab
+[01-py-slicer](01-py-slicer.ipynb) - A NumPy tutorial that works with medical images. A GPU is not required.
+
+### 1) Open Data Hub
+
+Choose the `s2i-generic-data-science-notebook:v0.0.2` container image when launching Jupyter hub.
+
+Once Jupyter lab appears, visit the `data-science-notebooks/01-py-slicer.ipynd` notebook file.
+
+### 2) Run on Binder or Google Collab
 
 [01-py-slicer](01-py-slicer.ipynb) - A NumPy tutorial that works with medical images.
 
@@ -10,7 +18,7 @@
 [![Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/bkoz/6af632c482e320f28adb815b28d8f608/01-py-slicer.ipynb)
 
 
-### 2) A local Python 3.8 environment
+### 3) A local Python 3.8 environment
 
 ```
 $ python3 -m venv scipy-demos
@@ -26,9 +34,5 @@ $ jupyter nbextension enable --py widgetsnbextension
 $ jupyter lab --ip=0.0.0.0
 ```
 
-### 3) On an OpenShift cluster
-
-If running on OpenShift, the Jupyter notebook image needs to
-be configured the same as above. Once logged into Jupyter, upload the [01-py-slicer notebook file](01-py-slicer.ipynb).
 
 
