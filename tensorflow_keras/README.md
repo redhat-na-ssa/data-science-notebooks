@@ -6,8 +6,9 @@ Demos in this repo.
 
 #### OpenDataHub configuration
 
-- Run JupyterHub with the `s2i-tensorflow-notebook-gpu:3.6`.
-- Choose a large container size or the demo mat crash during the training loop.
+- JupyterHub Notebook Image: `s2i-tensorflow-notebook-gpu:3.6`
+- Container size: `Large`
+- Number of required GPUs: `1`
 
 ##### JupyterHub notebook storage
 
