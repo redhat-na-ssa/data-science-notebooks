@@ -34,5 +34,9 @@ $ jupyter nbextension enable --py widgetsnbextension
 $ jupyter lab --ip=0.0.0.0
 ```
 
+#### TODO
+
+Incorporate [3D image classification](https://keras.io/examples/vision/3D_image_classification/) into this.
+
 
 
